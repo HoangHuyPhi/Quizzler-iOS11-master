@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift Quizzs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdW-ka-Gla">
+                    <rect key="frame" x="152" y="220" width="176" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="176" id="GLF-wP-99g"/>
+                        <constraint firstAttribute="width" constant="176" id="LIH-sh-lJg"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="gUt-4g-QOh"/>
+                        <constraint firstAttribute="height" constant="40" id="n2Y-uE-xwX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <color key="textColor" red="1" green="0.9956120061" blue="0.97238459219999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="XdW-ka-Gla" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="V4f-au-OhL"/>
+                <constraint firstItem="XdW-ka-Gla" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="dls-kI-bmb"/>
+                <constraint firstItem="XdW-ka-Gla" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ghG-F5-pO1"/>
+                <constraint firstItem="XdW-ka-Gla" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="y1p-wi-K8I"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>
